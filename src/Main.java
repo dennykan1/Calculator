@@ -11,7 +11,7 @@ public class Main {
         String[] tokens = read.readLine().split("\\s+");
 
         for (String token : tokens) {
-            if(token.equals("Enter")){
+            if(token.equals("=")){
                 break;
             }
             interpreter.interpret(token);
